@@ -1,0 +1,120 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #1B0F4E;
+    box-shadow: 0px 4px 35px 10px rgba(0, 0, 0, 0.25);
+    height: 60px;
+    display: flex;
+    align-items: center; /* Untuk menengahkan secara vertikal */
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* Menambahkan jika Anda ingin menghilangkan underline pada tautan */
+    color: #B6B7F9;
+    font-weight: 500;
+}
+
+.back{
+    margin-left: 15px;
+    height: 25px;
+    width: 25px;
+}
+
+.logo{
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.navbar-brand .text {
+    margin-left: 10px;
+    color: #B6B7F9;
+    font-weight: 500;
+}
+
+.title{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #00045D;
+}
+
+.box {
+    max-width: 650px;
+    margin: auto;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.table {
+    margin-top: 40px;
+    font-size: 17px;
+}
+
+.table td {
+    height: 50px;
+}
+
+.table td:first-child {
+    background-color: #2C187F;
+    color: white;
+    text-align: left;
+}
+
+.table td:last-child {
+    background-color: #2C187F;
+    color: white;
+    text-align: right;
+}
+
+.table tr:first-child td:first-child{
+    border-top-left-radius: 10px;
+    font-weight: bold;
+}
+
+.table tr:first-child td:last-child{
+    border-top-right-radius: 10px;
+}
+
+.table tr:last-child td:first-child{
+    border-bottom-left-radius: 10px;
+}
+
+.table tr:last-child td:last-child{
+    border-bottom-right-radius: 10px;
+    height: 70px;
+}
+
+.payment-btn {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #3F4ABD;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 120px;
+    height: 45px;
+}
+
+
+.payment-btn-cell {
+    text-align: right;
+}
+
+.payment-btn-container {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+

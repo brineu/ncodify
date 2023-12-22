@@ -1,0 +1,176 @@
+/* Atur tata letak navbar */
+.navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+          }
+          
+          /* Atur tata letak untuk logo dan tulisan Codify */
+.navbar-brand {
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+            color: #B6B7F9;
+}
+
+.navbar-brand:hover {
+  color: #B6B7F9;
+}
+          
+          /* Berikan margin kanan pada logo untuk memberikan jarak */
+          .navbar-brand img {
+            margin-right: 10px; /* Sesuaikan ukuran margin sesuai kebutuhan Anda */
+          }
+
+          /* Atur warna teks untuk menu "Product," "Mentor," dan "About Us" */
+          .nav-link {
+            color: #F6F8FD;
+          }
+
+          .nav-link:hover {
+            color: #B6B7F9;
+          }
+          
+          /* Atur tata letak untuk tombol Login dan Sign up */
+          .form-inline {
+            display: flex;
+            align-items: center;
+          }
+          
+          .custom-signup-button {
+            background-color: #3F4ABD;
+            color: white;
+            margin-left: 10px; /* Tambahkan margin kiri untuk memisahkan tombol Sign up dari tombol Login */
+          }
+          
+          .custom-login-button {
+            color: #F6F8FD;
+            border-color: #F6F8FD;
+          }
+
+          
+          .btn-outline-success {
+            border-color: #F6F8FD;
+            color: #F6F8FD;
+          }
+          
+          .btn-outline-success:hover {
+            background-color: #3F4ABD;
+            border-color: #3F4ABD;
+            color: #F6F8FD;
+          }
+
+
+
+          html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+}
+          
+body{
+            background: linear-gradient(#1B0F4E, #361D9D);
+            /* Gunakan linear-gradient untuk latar belakang dengan perubahan warna dari atas ke bawah */
+            color: white;
+        }
+
+
+.containerHastag {
+            margin-top: 100px;
+            margin-left:80px;
+            font-weight: bold !important;
+            padding-left: 0px;
+            color: #B6B7F9;
+            font-family: 'Poppins', sans-serif;
+}
+
+.container {
+            margin-top: 0px;
+            margin-left:80px;
+            padding-left: 0px;
+            font-size: 50px;
+            font-weight: bold !important;
+            color: #ffffff;
+            font-family: 'Poppins', sans-serif;
+        }
+
+.content-container {
+            font-family: 'Poppins', sans-serif;
+            margin-top: 20px;
+            margin-left: 84px;
+            margin-bottom: 19px;
+            color: #B6B7F9;
+            font-weight: 100; 
+            display: flex;
+        }
+
+.content-container img {
+            float: right; 
+            position: absolute; 
+            right: 150px;
+            top: 160px; 
+            z-index: 100;
+           
+}
+
+
+.start-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 82px;
+            background-color: #4B57D7;
+            color: #ffffff;
+            font-weight: 600;
+            border-radius: 50px;
+            height: 40px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+            width: 170px;
+            /* height: 50px; Sesuaikan tinggi tombol sesuai kebutuhan Anda */
+          }
+
+.nav-item {
+            list-style-type: none;
+        }
+.transparent-background {
+            background-color: transparent !important; /* Mengatur latar belakang transparan */
+            border: 1px solid #B6B7F9; /* Menghilangkan border */
+            outline: none; /* Menghilangkan outline saat di-focus */
+            color: #ffffff; /* Warna teks */
+            display: flex; /* agar icon profile bisa di sebelah searcj*/
+            align-items: center;
+            margin-right: 15px;
+            border-radius: 20px;
+            border-color: #B6B7F9;
+        }
+.form {
+          position: relative;
+      }
+  
+.form-input::placeholder {
+        color: #ffffff;
+        padding-left: 5px;
+    }
+
+    .icon-container {
+      display: flex;
+      align-items: center;
+  }
+
+.dropdown {
+      position: relative; 
+  }
+
+.dropdown:hover .icon-container i {
+    color: #ffffff; /* Ganti dengan warna hover yang diinginkan */
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu a:hover {
+  background-color: #2A177A; /* Warna ungu tua saat di-hover */
+  color: #ffffff; /* Warna teks saat di-hover */
+}

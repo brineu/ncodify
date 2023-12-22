@@ -1,0 +1,193 @@
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+nav{
+    background-color: #1B0F4E;
+    box-shadow: 0px 4px 35px 10px rgba(0, 0, 0, 0.25);
+    flex-shrink: 0;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+nav a {
+    float: left;
+    display: flex;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.logo{
+    width: auto;
+    height:25px;
+    display: block;
+    margin-right: 14px;
+}
+
+input[type='search'] {
+    display: flex;
+    padding: 5px 10px;
+    padding-left: 32px;
+    border: 1px solid #ffff;
+    border-radius: 40px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background-color: #1B0F4E;
+    color: #fff;
+    margin: 8px 16px;
+}
+
+.profil-page{
+    align-items: center;
+    text-align: center;
+    margin: 75px;
+    color: #00045D;
+    font-family: 'inter', sans-serif;
+    font-weight: 600;
+    display: block;
+}
+
+.profil-card{
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: #2C187F;
+    height: auto;
+    width: 1000px;
+    padding: 65px;
+    display: inline-flex;
+}
+
+.profil-card img{
+    width: 481px;
+    height: 499px;
+    margin-right: 50px;
+}
+
+.profil-card-content{
+    display: inline-block;
+    text-align: left;
+}
+
+.profil-card-content h1{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.profil-card-content p{
+    margin: 0px;
+    margin-bottom: 25px;
+    color: #fff;
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 24px;
+    font-style: normal;
+}
+
+.profil-button{
+    background-color: #fff;
+    border-radius: 5px;
+    color: #1B0F4E;
+    font-family: 'poppins';
+    font-size: 30px;
+    font-weight: 700;
+    padding: 16px 25px 16px 75px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 55px;
+    display: block;
+}
+
+.search-page{
+    align-items: center;
+    text-align: center;
+    display: block;
+}
+
+.fail-search{
+    margin: 0 auto;
+    border-radius: 20px;
+    height: auto;
+    padding: 65px;
+    display: block;
+}
+
+.fail-search p{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.not-found{
+    display: flex;
+    margin: 0 auto;
+    padding: 63.911px 64.745px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.course-list{
+    margin: 60px;
+    padding: 40px;
+    padding-right: 60px;
+    background-color: #FFF;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 10px;
+}
+
+.course-list ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    align-items: center;
+    display: flex;
+}
+
+.course-desc{
+    margin: 0px 30px;
+    display: inline-block;
+    text-align: justify;
+    padding: 0px;
+    color: #5348EF;
+    font-family: 'inter', sans-serif;
+    width: 50%;
+}
+
+.subs-button{
+    background-color: #4550C8;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 27px;
+    font-weight: 600;
+    padding: 15px 30px;
+    text-align: center;
+}

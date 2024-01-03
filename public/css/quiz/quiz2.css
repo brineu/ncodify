@@ -113,28 +113,15 @@ body {
     margin-left: 10px;
 }
 
-.back-button {
-    bottom: 0;
-    right: 0;
-    margin-top: 30px; /* Memberikan jarak dari bawah */
-    margin-right: 840px;
-    margin-left: 140px;
-    background-color: #DDD9F7;
-    color: #000000;
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: 600;
+#quizForm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 140px 0 140px; /* Sesuaikan dengan kebutuhan margin atas dan sisi */
 }
 
+.back-button,
 .next-button {
-    bottom: 0;
-    right: 0;
-    margin-top: 30px; /* Memberikan jarak dari bawah */
-    margin-right: 20px;
-    margin-left: auto;
     background-color: #DDD9F7;
     color: #000000;
     padding: 10px 20px;
@@ -143,4 +130,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

@@ -81,9 +81,6 @@
                 <div class="subscription-info">
                     <p>Anda telah berlangganan di Codify. Silakan mulai perjalanan belajar Anda.</p>
                 </div>
-                <div class="subscribe-button">
-                    Belajar Sekarang
-                </div>
             </div>
         </div>
     </div>

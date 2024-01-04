@@ -78,7 +78,9 @@
         </div>
     </div>
     <p class="course-description">
-        Kursus ini akan mengajarkan Anda, cara membuat struktur untuk website sebelum benar-benar memulai dikembangkan. Dan kemudian Anda akan belajar cara mengubah struktur tersebut ke websitenya.    </p>
+        Kursus ini akan mengajarkan Anda, cara membuat struktur untuk website sebelum benar-benar memulai dikembangkan. Dan kemudian Anda akan belajar cara mengubah struktur tersebut ke websitenya.
+    </p>
+    <button class="subscribe-button">Berlangganan</button>
 </div>
 
 

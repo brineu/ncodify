@@ -129,6 +129,14 @@ Route::prefix('course')->group(function () {
                 });
             });
         });
+        Route::prefix('payment')->group(function () {
+            Route::get('/', function () {
+                return view('payment.cekoutp');
+            });
+            Route::get('/qr', function () {
+                return view('payment.paymentqr');
+            });
+        });
     });
     Route::prefix('webdev')->group(function () {
         Route::get('/', function () {

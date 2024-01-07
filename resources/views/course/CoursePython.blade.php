@@ -74,7 +74,7 @@
             <img src="{{ asset('images/img/gambar3.png') }}" alt="Header Image">
         </div>
         <div class="header-content">
-            <h2>FUNDAMENTAL FRONT-END WEB</h2>
+            <h2>PYTHON BEYOND BASICS </h2>
         </div>
     </div>
     <p class="course-description">

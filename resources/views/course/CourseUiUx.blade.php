@@ -74,11 +74,11 @@
             <img src="{{ asset('images/img/gambar3.png') }}" alt="Header Image">
         </div>
         <div class="header-content">
-            <h2>FUNDAMENTAL FRONT-END WEB</h2>
+            <h2>MASTERING UI/UX DESIGNER</h2>
         </div>
     </div>
     <p class="course-description">
-        Kursus ini akan mengajarkan Anda, cara membuat struktur untuk website sebelum benar-benar memulai dikembangkan. Dan kemudian Anda akan belajar cara mengubah struktur tersebut ke websitenya.    </p>
+        Kursus ini akan mengajarkan Anda cara mengimplementasikan antarmuka pengguna (UI) dan pengalaman pengguna (UX) pada situs web.</p>
 </div>
 
 
